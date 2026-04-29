@@ -14,6 +14,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["rubygems_mfa_required"] = "true"
+  spec.metadata["source_code_uri"] = "https://github.com/pankajprajapat/ai_screen_assistant"
+  spec.metadata["changelog_uri"] = "https://github.com/pankajprajapat/ai_screen_assistant/blob/main/CHANGELOG.md"
 
   spec.files = Dir.chdir(__dir__) do
     Dir["lib/**/*", "README.md", "LICENSE.txt", "CHANGELOG.md"].select { |f| File.file?(f) }

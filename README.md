@@ -1,5 +1,7 @@
 # ai_screen_assistant
 
+**Source:** [github.com/pankajprajapat/ai_screen_assistant](https://github.com/pankajprajapat/ai_screen_assistant)
+
 Screen-grounded AI chat for Ruby: **pluggable LLM providers**, **credential resolvers**, **conversation stores**, **topic guards**, and **JSONL export** for fine-tuning datasets.
 
 ## Install
@@ -102,9 +104,8 @@ LLMs are not provably on-topic; combine guards with **server-side authorization*
 
 ## Rails
 
-Use the companion gem [`ai_screen_assistant-rails`](../ai_screen_assistant-rails/) for ActiveRecord storage and a controller concern.
+Use the companion gem [`ai_screen_assistant-rails`](https://github.com/pankajprajapat/ai_screen_assistant-rails) for ActiveRecord storage and a controller concern.
 
 ## Sinatra
 
-See [examples/sinatra](../examples/sinatra/) in the repository root.
-# ai_screen_assistant
+See [examples/sinatra](../examples/sinatra/) in this repository.
